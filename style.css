@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Golos Text', sans-serif;
+    box-sizing: border-box;
+}
+
+#title_bar{
+    height: 150px;
+    width: 100%;
+    background-color: #f1e3dd;
+}
+
+.title{
+    color: #132743;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+}
+
+span{
+    color: #407088;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #c83349;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #407088;
+    transition: .5s;
+}
+
+.contact_me form{
+    padding: 10px;
+    width: 200px;
+    max-width: 100%;
+    position: relative;
+}
+
+.contact_me form input{
+    display: inline-block;
+    width: 200%;
+    color:#407088
+}
+
+#name{
+    padding: 10px;
+    color:#407088
+}
+
+#mail{
+    padding: 10px;
+    color:#407088
+}
+
+#message{
+
+    color:#407088
+
+}
+
+.about_me{
+    width: 100%;
+    background-color:#132743;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_me h2{
+    padding: 15px;
+    color:#f1e3dd;
+}
+
+.about_me h5{
+    padding: 15px;
+    font-size: 16px;
+    color: #f1e3dd;
+}
+
+.about_me p{
+    padding: 15px;
+}
+
+.social a{
+    color: #c83349;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.social a:hover{
+    color: #407088;
+    transition: .5s;
+}
+
+.home{
+    background-color:#132743;
+    color: white;
+}
+
+.projects{
+    width: 100%;
+    background-color:#132743;
+    color: white;
+}
+
+.card h4{
+    font-size: 17px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+footer{
+    text-align: center;
+}
